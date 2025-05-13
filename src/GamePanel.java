@@ -22,9 +22,9 @@ public class GamePanel extends JPanel {
         this.ground2Y = frameHeight - 75 -15;
         this.player1 = new Player(32, 32, 50, ground1Y - 32, 5);
         this.player2 = new Player(32, 32, 50, ground2Y-32, 5);
-        this.lavaImage = new ImageIcon("src/Unbenannt.png").getImage();
-        this.player1Image = new ImageIcon("src/Player1.png").getImage();
-        this.player2Image = new ImageIcon("src/Player2.png").getImage();
+        this.lavaImage = new ImageIcon("src/images/Unbenannt.png").getImage();
+        this.player1Image = new ImageIcon("src/images/Player1.png").getImage();
+        this.player2Image = new ImageIcon("src/images/Player2.png").getImage();
         this.steuerung = steuerung;
     }
 
